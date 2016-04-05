@@ -42,11 +42,11 @@
         selectDetails: (placeResult) ->
           $("input[name='place_id']").val(placeResult.place_id)
           return null
-  "place_id": # TODO: https://github.com/aldeed/meteor-autoform/issues/549
+  "code position":
     type: String
-    label: "place_id"
+    label: "Code Position"
     autoform:
-      placeholder: "(as hidden field)"
+      placeholder: "Pour l'admin"
 
 if Meteor.isClient
   AutoForm.setDefaultTemplate("bootstrap3")
