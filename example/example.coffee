@@ -24,7 +24,7 @@
           label: "Portugal"
           value: "PO"
         ]
-  "place":
+  "Ville":
     type: String
     autoform:
       type: "placecomplete"
